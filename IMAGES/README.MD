@@ -7,6 +7,7 @@
 * Boot up!
 
 * Press ENTER for Date, and again for TIME
+   * You initially want to pick a date in 1993 for first time install:
 * At the [A:\] prompt, type HDSETUP and press enter.
 * Press [F3] to create your primary partition
 
@@ -16,5 +17,8 @@
 * type FORMAT C: and press enter, once finished
 * type MSYS C: and press enter
 
-* next, MKDIR C:\MOS and press enter
-* then, COPY A:\*.* C:\MOS and press enter
+* then, COPY A:\*.* C:\ and press enter
+* type C: enter
+* next, type DISKID C: and enter a simple name - like BOOTDISK and press enter
+
+* if everything worked, you can type VERIFY enter and it will not lock up - if it locked up - you missed a step above!
