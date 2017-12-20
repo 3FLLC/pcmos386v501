@@ -22,3 +22,6 @@
 * next, type DISKID C: and enter a simple name - like BOOTDISK and press enter
 
 * if everything worked, you can type VERIFY enter and it will not lock up - if it locked up - you missed a step above!
+* if VERIFY worked, stop the VM - remove the floopy from boot and reboot - viola - a FAST PCMOS/385 5.01
+
+Ozz
